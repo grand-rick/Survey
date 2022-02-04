@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+            <div class="intro">
+                <h2>Welcome To My Survey</h2>
+                <p>
+                    Here I'm going to ask some questions to get more information about happiness among people. 
+                </p>
+
+                <p class="quote flex-center">
+                    “Happiness, more than anything, is a state of mind, a way of perceiving and approaching ourselves and the world in which we reside.” ~ Sonja Lyubomirsky.
+                </p>
+            </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <form action="mailto:kabugap9@gmail.com?Subject=Data on Survey" method="post" enctype="text/plain">
+            <p>
+            How happy are you at the moment? <br>
+            <label for="moment">
+                <input type="radio" name="How happy" value="Very happy" id="moment"> Very Happy <br>
+                <input type="radio" name="How happy" value="Moderately happy" id="moment"> Moderately Happy <br>
+                <input type="radio" name="How happy" value="Very unhappy" id="moment"> Very unhappy <br>
+            </label>
+            </p>
+            <br>
+
+            <p>
+                How would you rate your level of happiness on a scale of 1-100?: <br>
+             <label for="rating">1
+                 <input type="range" name="Level of cyberbullying" min="1"max="100" step="1" value="1" id="rating">
+                 100
+            </label>
+            </p>
+            <br>
+
+            <p>
+                What are the things that make you happy in your life right now?  <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+            </p>            
+            <br>
+            
+           <p>
+            In what area of your life would you like to increase your feelings of happiness? Select all that apply. <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="family" value="Family"> Family <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="friends" value="Friends"> Friends <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="relationship" value="Relationship"> Relationship <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="workplace" value="Workplace"> Workplace <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="career" value="Career"> Career <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="health" value="Health"> Health <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="wealth" value="Wealth"> Wealth <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="Surroundings" value="Surroundings"> Surroundings <br>
+            <input type="checkbox" name="Areas to increase feelings of happiness" id="leisure" value="Leisure"> Leisure Time
+           </p>
+           <br>
+
+           <div id="user-details">
+            <p>
+                How old are you?
+                    <label for="age">
+                        <select name="Age" id="age">
+                            <option value="17 and below">17 and below</option>
+                            <option value="18-25">18-25</option>
+                            <option value="25-39">25-39</option>
+                            <option value="40-59">40-59</option>
+                            <option value="60 and above">60 and above</option>
+                        </select>
+                    </label>
+                </p>
+           </div>
+           <br>
+
+           <input type="submit" value="Done"></input> 
+           <input type="reset" value="Clear">
+        </form>
+    </main>
+
+    <footer id="footer">
+
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

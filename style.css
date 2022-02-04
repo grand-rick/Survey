@@ -1,0 +1,121 @@
+:root {
+    --theme-color: #c0392b;
+    --dark-color: #2d3436;
+    --light-color: #fff;
+    --hover-color: #2ecc71;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* UTILITIES */
+.container {
+    padding: 5.8rem 7rem 5.8rem 7rem;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+  /* End of UTILITIES */
+body {
+    width: 100%;
+}
+
+/* Header Section */
+header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3.3rem;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    background-image: url("img/smile.jpg");
+    color: var(--light-color);
+    background-position: center;
+}
+nav {
+    margin-left: auto;
+    font-size: 3.5rem;
+    margin-right: 5.9rem;
+}
+.nav-bar {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    display:flex;
+    margin-right: 2.8rem;
+}
+.nav-link {
+    color: var(--light-color);
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: var(--hover-color);
+    transform: translateY(-0.39rem);
+    -webkit-transform: translateY(-0.39rem);
+    -moz-transform: translateY(-0.39rem);
+    -ms-transform: translateY(-0.39rem);
+    -o-transform: translateY(-0.39rem);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    text-decoration: underline;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 5.5rem;
+}
+.quote {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Main Content Section */
+#main-content {
+    font-size: 2.3rem;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+textarea {
+    margin-top: 1.2rem;
+    resize: vertical;
+    background-color: var(--light-color);
+    color: #000;
+}

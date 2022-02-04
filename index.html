@@ -36,7 +36,7 @@
             <p>
                 How would you rate your level of happiness on a scale of 1-100?: <br>
              <label for="rating">1
-                 <input type="range" name="Level of cyberbullying" min="1"max="100" step="1" value="1" id="rating">
+                 <input type="range" name="Level of happiness" min="1"max="100" step="1" value="1" id="rating">
                  100
             </label>
             </p>
@@ -62,7 +62,133 @@
            </p>
            <br>
 
-           <div id="user-details">
+            <!-- Start of radio statements -->
+           <div id="statements">
+            <h4 class="text-center">Please state your agreement with the below statements: </h4> 
+                <br>
+
+                <div id="options">
+                    <ul class="options-ul">
+                        <li class="options-li">Strongly disagree</li>
+                        <li class="options-li">Disagree</li>
+                        <li class="options-li">Neutral</li>
+                        <li class="options-li">Agree</li>
+                        <li class="options-li">Strongly Agree</li>
+                    </ul>
+                </div>
+            <p>
+             I am pleased with the way I am:
+             <label for="me-pleased?" class="radio">
+                 <input type="radio" name="me-pleased?" id="me-pleased?" value="Strongly disagree">
+                 <input type="radio" name="me-pleased?" id="me-pleased?" value="Disagree">
+                 <input type="radio" name="me-pleased?" id="me-pleased?" value="Neutral">
+                 <input type="radio" name="me-pleased?" id="me-pleased?" value="Agree">
+                 <input type="radio" name="me-pleased?" id="me-pleased?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I am pleased with the way I approach life:
+             <label for="life-app-pleased?" class="radio">
+                 <input type="radio" name="life-app-pleased?" id="life-app-pleased?" value="Strongly disagree">
+                 <input type="radio" name="life-app-pleased?" id="life-app-pleased?" value="Disagree">
+                 <input type="radio" name="life-app-pleased?" id="life-app-pleased?" value="Neutral">
+                 <input type="radio" name="life-app-pleased?" id="life-app-pleased?" value="Agree">
+                 <input type="radio" name="life-app-pleased?" id="life-app-pleased?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I am pleased with the way I approach problems:
+             <label for="prob-app-pleased?" class="radio">
+                 <input type="radio" name="prob-app-pleased?" id="prob-app-pleased?" value="Strongly disagree">
+                 <input type="radio" name="prob-app-pleased?" id="prob-app-pleased?" value="Disagree">
+                 <input type="radio" name="prob-app-pleased?" id="prob-app-pleased?" value="Neutral">
+                 <input type="radio" name="prob-app-pleased?" id="prob-app-pleased?" value="Agree">
+                 <input type="radio" name="prob-app-pleased?" id="prob-app-pleased?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I am rarely interested in other people:
+             <label for="pple-not-interested?" class="radio">
+                 <input type="radio" name="pple-not-interested?" id="pple-not-interested?" value="Strongly disagree">
+                 <input type="radio" name="pple-not-interested?" id="pple-not-interested?" value="Disagree">
+                 <input type="radio" name="pple-not-interested?" id="pple-not-interested?" value="Neutral">
+                 <input type="radio" name="pple-not-interested?" id="pple-not-interested?" value="Agree">
+                 <input type="radio" name="pple-not-interested?" id="pple-not-interested?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I feel that life is rewarding:
+             <label for="life-rewarding?" class="radio">
+                 <input type="radio" name="life-rewarding?" id="life-rewarding?" value="Strongly disagree">
+                 <input type="radio" name="life-rewarding?" id="life-rewarding?" value="Disagree">
+                 <input type="radio" name="life-rewarding?" id="life-rewarding?" value="Neutral">
+                 <input type="radio" name="life-rewarding?" id="life-rewarding?" value="Agree">
+                 <input type="radio" name="life-rewarding?" id="life-rewarding?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I am committed and involved:
+             <label for="committed?" class="radio">
+                 <input type="radio" name="committed?" id="committed?" value="Strongly disagree">
+                 <input type="radio" name="committed?" id="committed?" value="Disagree">
+                 <input type="radio" name="committed?" id="committed?" value="Neutral">
+                 <input type="radio" name="committed?" id="committed?" value="Agree">
+                 <input type="radio" name="committed?" id="committed?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I always see the bad in people:
+             <label for="bad-in-pple?" class="radio">
+                 <input type="radio" name="bad-in-pple?" id="bad-in-pple?" value="Strongly disagree">
+                 <input type="radio" name="bad-in-pple?" id="bad-in-pple?" value="Disagree">
+                 <input type="radio" name="bad-in-pple?" id="bad-in-pple?" value="Neutral">
+                 <input type="radio" name="bad-in-pple?" id="bad-in-pple?" value="Agree">
+                 <input type="radio" name="bad-in-pple?" id="bad-in-pple?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             My natural instinct is to think the worst:
+             <label for="think-worst?" class="radio">
+                 <input type="radio" name="think-worst?" id="think-worst?" value="Strongly disagree">
+                 <input type="radio" name="think-worst?" id="think-worst?" value="Disagree">
+                 <input type="radio" name="think-worst?" id="think-worst?" value="Neutral">
+                 <input type="radio" name="think-worst?" id="think-worst?" value="Agree">
+                 <input type="radio" name="think-worst?" id="think-worst?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I am satisfied with whatever I have:
+             <label for="satisfied?" class="radio">
+                 <input type="radio" name="satisfied?" id="satisfied?" value="Strongly disagree">
+                 <input type="radio" name="satisfied?" id="satisfied?" value="Disagree">
+                 <input type="radio" name="satisfied?" id="satisfied?" value="Neutral">
+                 <input type="radio" name="satisfied?" id="satisfied?" value="Agree">
+                 <input type="radio" name="satisfied?" id="satisfied?" value="Strongly agree">
+             </label>
+            </p>
+            <br>
+            <p>
+             I rarely trust people:
+             <label for="rarely-trust?" class="radio">
+                 <input type="radio" name="rarely-trust?" id="rarely-trust?" value="Strongly disagree">
+                 <input type="radio" name="rarely-trust?" id="rarely-trust?" value="Disagree">
+                 <input type="radio" name="rarely-trust?" id="rarely-trust?" value="Neutral">
+                 <input type="radio" name="rarely-trust?" id="rarely-trust?" value="Agree">
+                 <input type="radio" name="rarely-trust?" id="rarely-trust?" value="Strongly agree">
+             </label>
+            </p>
+           </div>  <!--End of statements-->
+
+           <br>
+           <div id="user-details" class="flex-center">
             <p>
                 How old are you?
                     <label for="age">
@@ -75,11 +201,30 @@
                         </select>
                     </label>
                 </p>
+                <p>
+                    Please select your gender. <br>
+                    <label for="Gender">
+                        <input type="radio" name="Gender" id="Gender" value="Male"> Male <br>
+                        <input type="radio" name="Gender" id="Gender" value="Female"> Female <br>
+                        <input type="radio" name="Gender" id="Gender" value="Other"> Other
+                    </label>
+                </p>
+           </div> <!--End of user Details-->
+           <br>
+
+           <div id="contact-info">
+            <p>  Contact Information: <br>
+                <input type="text" name="First name" id="fname" placeholder="First name" class="cont-info"> <br>
+                <input type="text" name="Last name" id="lname" placeholder="Last name" class="cont-info"> <br>
+                <input type="email" name="email" id="email" placeholder="E-mail" class="cont-info">
+            </p>
            </div>
            <br>
 
-           <input type="submit" value="Done"></input> 
-           <input type="reset" value="Clear">
+          <div class="buttons text-center">
+            <input type="submit" value="Done" class="btn">
+            <input type="reset" value="Clear" class="btn">
+          </div>
         </form>
     </main>
 

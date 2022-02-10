@@ -63,38 +63,7 @@ header {
     color: var(--light-color);
     background-position: center;
 }
-nav {
-    margin-left: auto;
-    font-size: 3.5rem;
-    margin-right: 5.9rem;
-}
-.nav-bar {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-}
-.nav-item {
-    display:flex;
-    margin-right: 2.8rem;
-}
-.nav-link {
-    color: var(--light-color);
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: var(--hover-color);
-    transform: translateY(-0.39rem);
-    -webkit-transform: translateY(-0.39rem);
-    -moz-transform: translateY(-0.39rem);
-    -ms-transform: translateY(-0.39rem);
-    -o-transform: translateY(-0.39rem);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    text-decoration: underline;
-}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -102,7 +71,7 @@ nav {
     justify-content: center;
     margin-top: 2rem;
     text-align: center;
-    font-size: 5.5rem;
+    font-size: 4.9rem;
 }
 .quote {
     position: absolute;
@@ -167,7 +136,7 @@ textarea {
 }
 
 #statements [type="radio"] {
-    margin-right: 12rem;
+    margin-right: 10rem;
 }
 
 #options {
@@ -185,7 +154,7 @@ textarea {
 }
 
 .options-li {
-    margin-right: 5.5rem;
+    margin-right: 3.5rem;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -209,4 +178,54 @@ textarea {
 
 .cont-info::placeholder {
     color: var(--black-color);
+}
+
+
+/* Making media queries for the website to be responsive and fit across all devices */
+/* Large Devices */
+@media (max-width: 991px) {
+    .intro {
+        font-size: 4.5rem;
+    }
+}
+
+/* Medium Devices */
+@media (max-width: 768px) {
+    .intro {
+        font-size: 3.5rem;
+    }
+}
+
+/* Small Devices */
+@media (max-width: 600px) {
+    .intro {
+        font-size: 3.0rem;
+    }
+}
+
+@media (max-width: 430px) {
+    #user-details .age {
+        margin-right: 0.5rem;
+    }
+    #user-details .gender {
+        border-left: 0.2rem solid var(--dark-color);
+        padding-left: 0.5rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .intro {
+        font-size: 2.5rem;
+    }
+    #contact-info input {
+        margin-right: auto;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1225px) {
+    #statements {
+        display: none;
+    }
 }
